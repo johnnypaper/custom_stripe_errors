@@ -1,4 +1,4 @@
-ass Admin::Stripe::Subscriptions::PlansController < ApplicationController
+Class Admin::Stripe::Subscriptions::PlansController < ApplicationController
 
   include CustomStripeErrors
 
