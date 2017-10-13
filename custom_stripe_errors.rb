@@ -1,4 +1,4 @@
-ustomStripeErrors
+module CustomStripeErrors
   def stripe_error_check(e)
     if e.instance_of?(Stripe::CardError => e)
       # Since it's a decline, Stripe::CardError will be caught
